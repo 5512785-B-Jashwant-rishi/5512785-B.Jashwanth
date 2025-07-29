@@ -1,0 +1,122 @@
+    1  wsl.exe -d Ubuntu
+    2  wsl
+    3  winver
+    4  whoami
+    5  whatis cat
+    6  wheris gcc
+    7  whereis gcc
+    8  info cat
+    9  sudo apt update
+   10  sudo apt upgrade
+   11  sudo apt install buil-essential
+   12  sudo apt install build-essential
+   13  sudo apt install g++
+   14  sudo apt install gcc
+   15  date; uname -r; whoami
+   16  date "+%D %T"
+   17  date "%Y - %m -%d"
+   18  date "+%Y - %m -%d"
+   19  cal
+   20  sudo apt install cal
+   21  cal
+   22  cal 2025
+   23  bc
+   24  echo -e "HEllo \t World"
+   25  echo -n "Hello"
+   26  echo -e "Hello world"
+   27  date
+   28  bc
+   29  sudo at update
+   30  sudo apt update
+   31  sudo apt upgrade
+   32  history
+   33  history > my_commands.txt
+   34  cat my_commands.txt
+   35  mkdir -p ~/Documents/linux_logs
+   36  history > ~/Documents/linux_logs/my_commands.txt
+   37  find ~ -name my_commands.txt
+   38  history > ~/Desktop/my_commands.txt
+   39  echo $SHELL
+   40  printenv SHELL
+   41  whoami
+   42  whatis echo
+   43  whais printenv
+   44  whatis printenv
+   45  whatis whoami
+   46  whatis cat
+   47  whereis cat
+   48  whereis gcc
+   49  info cat
+   50  sudo apt install gcc
+   51  clear
+   52  sudo apt install build-essential
+   53  date
+   54  date "+%D"
+   55  date "+%D %T"
+   56  date "+%Y-%m-%d"
+   57  date "+%Y/%m/%d"
+   58  date "+%A %B %d %Y %T"
+   59  date--date "tomorrow"
+   60  date --date "tomorrow"
+   61  date --date "2 years ago"
+   62  man date
+   63  clear
+   64  cal
+   65  sudo apt install ncal
+   66  cal
+   67  cal 7 2025
+   68  cal 5 2025
+   69  cal 2025
+   70  cal 2024
+   71  cal -3 2025
+   72  cal -3
+   73  clear
+   74  ps
+   75  exit
+   76  bc
+   77  bc <<<"12/5"
+   78  bc <<<"scale=2; 12/5"
+   79  bc <<< "2>5"
+   80  bc <<< "2^10"
+   81  uname
+   82  uname -o
+   83  uname -i
+   84  uname -n
+   85  uname -v
+   86  uname -s
+   87  uname -m
+   88  uname -r
+   89  uname -a
+   90  echo "Welcome to Linux"
+   91  echo -e "Hello \t World"
+   92  echo -n "Hello WOrld"
+   93  echo "Welcome to \"Linux\""
+   94  echo 'date'
+   95  echo "THis is
+
+me
+quit
+q
+
+   96  linux
+   97  Linux
+   98  echo "This is
+Linux
+Training 
+for 
+Notchup
+July 2025^C
+   99  echo "This is"This is Linux Training for Notchup July 2025"
+  100  printf "Linux training"
+  101  printf "Linux training\n"
+  102  printf "My shell is %s\n"$SHELL
+  103  seq 1 10
+  104  seq 1 3 10
+  105  seq 1- -1 1
+  106  seq 10 -1 1
+  107  seq 20 -2 0
+  108  seq -s "" 10
+  109  seq -s "" 5 10
+  110  seq -s "" 5 3 50
+  111  rev <<< Linux
+  112  history > my_commands.txt
