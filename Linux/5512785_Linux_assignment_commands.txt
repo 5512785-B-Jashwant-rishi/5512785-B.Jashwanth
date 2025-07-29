@@ -1,0 +1,328 @@
+5512785--B.jashwanth rishi-- Linux commands    
+
+
+1  wsl.exe -d Ubuntu
+    2  wsl
+    3  winver
+    4  whoami
+    5  whatis cat
+    6  wheris gcc
+    7  whereis gcc
+    8  info cat
+    9  sudo apt update
+   10  sudo apt upgrade
+   11  sudo apt install buil-essential
+   12  sudo apt install build-essential
+   13  sudo apt install g++
+   14  sudo apt install gcc
+   15  date; uname -r; whoami
+   16  date "+%D %T"
+   17  date "%Y - %m -%d"
+   18  date "+%Y - %m -%d"
+   19  cal
+   20  sudo apt install cal
+   21  cal
+   22  cal 2025
+   23  bc
+   24  echo -e "HEllo \t World"
+   25  echo -n "Hello"
+   26  echo -e "Hello world"
+   27  date
+   28  bc
+   29  sudo at update
+   30  sudo apt update
+   31  sudo apt upgrade
+   32  history
+   33  history > my_commands.txt
+   34  cat my_commands.txt
+   35  mkdir -p ~/Documents/linux_logs
+   36  history > ~/Documents/linux_logs/my_commands.txt
+   37  find ~ -name my_commands.txt
+   38  history > ~/Desktop/my_commands.txt
+   39  echo $SHELL
+   40  printenv SHELL
+   41  whoami
+   42  whatis echo
+   43  whais printenv
+   44  whatis printenv
+   45  whatis whoami
+   46  whatis cat
+   47  whereis cat
+   48  whereis gcc
+   49  info cat
+   50  sudo apt install gcc
+   51  clear
+   52  sudo apt install build-essential
+   53  date
+   54  date "+%D"
+   55  date "+%D %T"
+   56  date "+%Y-%m-%d"
+   57  date "+%Y/%m/%d"
+   58  date "+%A %B %d %Y %T"
+   59  date--date "tomorrow"
+   60  date --date "tomorrow"
+   61  date --date "2 years ago"
+   62  man date
+   63  clear
+   64  cal
+   65  sudo apt install ncal
+   66  cal
+   67  cal 7 2025
+   68  cal 5 2025
+   69  cal 2025
+   70  cal 2024
+   71  cal -3 2025
+   72  cal -3
+   73  clear
+   74  ps
+   75  exit
+   76  bc
+   77  bc <<<"12/5"
+   78  bc <<<"scale=2; 12/5"
+   79  bc <<< "2>5"
+   80  bc <<< "2^10"
+   81  uname
+   82  uname -o
+   83  uname -i
+   84  uname -n
+   85  uname -v
+   86  uname -s
+   87  uname -m
+   88  uname -r
+   89  uname -a
+   90  echo "Welcome to Linux"
+   91  echo -e "Hello \t World"
+   92  echo -n "Hello WOrld"
+   93  echo "Welcome to \"Linux\""
+   94  echo 'date'
+   95  echo "THis is
+   96  me
+   97  quit
+   98  q
+   99  linux
+  100  Linux
+  101  echo "This is
+  102  Linux
+  103  Training 
+  104  for 
+  105  Notchup
+  106  July 2025^C
+  107  echo "This is"This is Linux Training for Notchup July 2025"
+  108  printf "Linux training"
+  109  printf "Linux training\n"
+  110  printf "My shell is %s\n"$SHELL
+  111  seq 1 10
+  112  seq 1 3 10
+  113  seq 1- -1 1
+  114  seq 10 -1 1
+  115  seq 20 -2 0
+  116  seq -s "" 10
+  117  seq -s "" 5 10
+  118  seq -s "" 5 3 50
+  119  rev <<< Linux
+  120  history > my_commands.txt
+  121  seq 1 10
+  122  date --date "2 years ago"
+  123  echo $?
+  124  false
+  125  echo $?
+  126  ls
+  127  nano newfile
+  128  cd new
+  129  ls
+  130  mkdir new
+  131  cd new
+  132  mkdir new1 new2
+  133  ls
+  134  cd
+  135  cd-
+  136  cd -
+  137  mkdir -p d1/d2
+  138  ls
+  139  cd d1
+  140  ls
+  141  ls -l
+  142  cd ..
+  143  cd
+  144  ls -l
+  145  ls-a
+  146  ls -a
+  147  ls -R
+  148  nano demo
+  149  wc demo
+  150  Wc demo
+  151  touch newfile.txt
+  152  nano newfile.txt
+  153  cat newfile.txt
+  154  cat newfile.txt > output.txt
+  155  cat output.txt
+  156  cat -n demo
+  157  ls
+  158  mkdir training
+  159  cp newfile outout.txt training
+  160  cp newfile output.txt training
+  161  cd training
+  162  ls
+  163  cd
+  164  ls
+  165  ls -R
+  166  cp -r new training
+  167  ls
+  168  cd training
+  169  ls
+  170  cd new
+  171  ls
+  172  mv output.txt out
+  173  find output.txt
+  174  ls
+  175  cd training
+  176  cd ..
+  177  mv output.txt out
+  178  ls
+  179  vi sum.c
+  180  gcc sum.c && ./a.out
+  181  vi sum.c
+  182  gcc sum.c && ./a.out
+  183  sudo apt install update
+  184  sudo apt install gcc
+  185  scc ifelse.c
+  186  gcc ifelse.c
+  187  gcc ifelse.C
+  188  cd notchupfy26
+  189  cd notchupfyjul26
+  190  gcc ifelse.c
+  191  vi ifelse.c
+  192  gcc ifelse.c
+  193  gcc 1darray.c
+  194  vi 1darray.c
+  195  gcc 1darray.c
+  196  cd ..
+  197  ./a.out
+  198  sudo apt install update
+  199  sudo apt update
+  200  sudo apt upgrade
+  201  sudo apt install build -essential
+  202  sudo apt install build-essential
+  203  history >> my_commands.txt
+  204  history >>> my_commands.txt
+  205  history > my_commands.txt
+  206  ls
+  207  cd jashwanth
+  208  ls
+  209  cd Documents
+  210  history > my_commands.txt
+  211  history > ~/my_commands.tx
+  212  exit
+  213  eco $SHELL
+  214  echo $SHELL
+  215  date; uname -r; whoami
+  216  date; unam -r; whoami
+  217  date&&whoami
+  218  dat&&whoami
+  219  man cat
+  220  nano test
+  221  ls
+  222  cd training
+  223  ls
+  224  cd new
+  225  cd ..
+  226  cd new
+  227  cd
+  228  cd -
+  229  cd
+  230  pwd
+  231  cd -
+  232  pwd
+  233  cd -
+  234  mkdir stepin
+  235  cd stepin
+  236  mkdir sdlc git linux
+  237  ls
+  238  cd sdlc
+  239  mkdir -p models/agile
+  240  ls
+  241  cd models
+  242  ls
+  243  cd
+  244  ls
+  245  ls -l
+  246  ls -a
+  247  ls _R
+  248  ls -R
+  249  cd stepin
+  250  ls -R
+  251  cd agile
+  252  cd
+  253  cd agile
+  254  cd stepin
+  255  cd sdla
+  256  cd sdlc
+  257  cd agile
+  258  cd models
+  259  cd agile
+  260  cd -
+  261  cd
+  262  nano cicd
+  263  wc cicd
+  264  wc this is day 3 of the training
+  265  wc
+  266  touch newfile.txt
+  267  ls
+  268  nano newfile.txt
+  269  cat newfile.txt
+  270  cat cicd
+  271  ls
+  272  touch cicd.txt
+  273  vi cicd.txt
+  274  cat cicd
+  275  ls
+  276  cd cicd
+  277  tac cicd
+  278  nano cicd2
+  279  cat cicd
+  280  ls
+  281  cp demo newfile stepin
+  282  cd stepin
+  283  cp demo newfile stepin
+  284  ls
+  285  cp -r training stepin
+  286  cd
+  287  ls
+  288  mv newfile git
+  289  mv stepin git
+  290  ls
+  291  cd git
+  292  ls
+  293  mv git to Day2
+  294  rm out
+  295  cd new
+  296  cd stepin
+  297  cd ~
+  298  cd  -
+  299  cd -
+  300  cd ~
+  301  cd  -
+  302  cd new
+  303  rm out
+  304  ls
+  305  rm d1
+  306  rm 1darray.c
+  307  cd -
+  308  rm 1darray.c
+  309  cd git
+  310  ls
+  311  mv sdlc training
+  312  cd ..
+  313  ls
+  314  cd training
+  315  ls
+  316  cd new
+  317  ls
+  318  cd ..
+  319  cd training
+  320  ls
+  321  mv output.txt new
+  322  cd new
+  323  ls
+  324  history > my_command.tx
+  325  history > my_command.txt
