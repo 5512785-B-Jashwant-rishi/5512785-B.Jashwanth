@@ -1,0 +1,148 @@
+Name -- B.Jashwanth rishi
+ID -- 5512785
+Total 146 commands
+//***30/07/2025 --- Linux assignment ***//
+  326  vi sum
+  327  gcc sum.c && ./a.out
+  328  vi filecmd
+  329  cat filecmd
+  330  cat sum.c
+  331  gcc sum.c
+  332  ./a.out
+  333  gcc sum.c && ./a.out
+  334  ls
+  335  more filecmd
+  336  nano filecmd
+  337  more filecmd
+  338  less filecmd
+  339  head -n 5 my_commands.txt
+  340  less my_commands.txt
+  341  tail my_commands.txt
+  342  tail +5 my_commands.txt
+  343  nano sample.txt
+  344  cat sample.txt
+  345  cur -c 1-3 sample.txt
+  346  cut -c 1-3 sample.txt
+  347  cut -c 4-10  sample.txt
+  348  cat sample.txt
+  349  cut -d ':' -f2 sample.txt
+  350  cut -d '?' -f2,3 sample.txt
+  351  ls
+  352  cat demo
+  353  nano f1
+  354  nano f2
+  355  cat f1
+  356  cat f2
+  357  paste f2 f2
+  358  paste f1 f2
+  359  paste -d ':' f1 f2
+  360  paste -s f1 f2
+  361  cat sample.txt
+  362  sort sample.txt
+  363  sort sample.txt -r
+  364  sort -t ':' -k2 sample.txt
+  365  sort -t ':' -k3 sample.txt
+  366  sort -t ':' -k3 f1.txt
+  367  sort -t ':' -k3 f1
+  368  cat sample.txt
+  369  cat sample.txttr ':' 'I' < sample.txt
+  370  tr ':' 'I' < sample.txt
+  371  ls
+  372  tr ':' 'I' < sample.txt > s1.txt
+  373  ls
+  374  cat s1.txt
+  375  tr ':0' '|$' <sample.txt
+  376  cat sample.txt
+  377  tr -s '0' <sample.txt
+  378  cat sample.txt
+  379  tr -d '0' <sample.txt
+  380  tr -d 'o' <sample.txt
+  381  tr -s 'o' <sample.txt
+  382  nano example.txt
+  383  cat example.txt
+  384  uniq example.txt
+  385  ls
+  386  cat sample.txt
+  387  cat s1.txt
+  388  cmp sample.txt s1.txt
+  389  diff sample.txt s1.txt
+  390  ls
+  391  nano test.c
+  392  cat test.c
+  393  grep main test.c
+  394  grep ^main test.c
+  395  grep ^int test.c
+  396  grep \; test.c
+  397  nano test.c
+  398  cat test.c
+  399  grep ^int test.c
+  400  grep multiply test.c
+  401  grep ^multiply test.c
+  402  grep Multiply test.c
+  403  grep ^Multiply test.c
+  404  nano sed_test
+  405  cat sed_test
+  406  sed 's/Hello/Hi/' sed_test
+  407  cat sed_test
+  408  sed -i 's/Hello/Hi/' sed_test
+  409  cat sed_test
+  410  sed -i 's/Hi/Hello/' sed_test
+  411  cat sed_test
+  412  sed 's/!/$/g' sed_test
+  413  sed -i 's/Hi/Hello/g' sed_test
+  414  cat sed_tets
+  415  cat sed_test
+  416  sed '/simple/d' sed_test
+  417  sed '/there/d' sed_test
+  418  cat sed_test
+  419  sed -n 's/Hello/Hi/' sed_test
+  420  nano employees.txt
+  421  cat employees.txt
+  422  awk '{print $0}' employees.txt
+  423  awk '{print $1}' employees.txt
+  424  awk '{print $2}' employees.txt
+  425  nano employees.txt
+  426  awk '{print $1,$2}' employees.txt
+  427  nano employees.txt
+  428  awk $3>3000 '{print $1,$3}' employees.txt
+  429  nano employees.txt
+  430  awk $3>3000 '{print $1,$3}' employees.txt
+  431  awk $2>3000 '{print $1,$3}' employees.txt
+  432  nano employees.txt
+  433  awk '{print $3}' employees.txt
+  434  awk $3>5000 '{print $1,$3}' employees.txt
+  435  awk $3<5000 '{print $1,$3}' employees.txt
+  436  awk 'BEGIN {print "Name:, Salary: "} {print $1, $3}' employees.txt
+  437  awk 'BEGIN {print "id:, Salary: "} {print $1, $3}' employees.txt
+  438  awk '{total+=3} END {print "Total salary",total}' employees.txt
+  439  awk '{total+=$3} END {print "Total salary",total}' employees.txt
+  440  awk '{print $0}' employees.txt
+  441  awk '{print NR, $1}' employees.txt
+  442  awk '{print NR, $0}' employees.txt
+  443  awk '/101/' employees.txt
+  444  awk '$2 <3000 {print $1,$2}' employees.txt
+  445  awk '$3 <5000 {print $1,$2}' employees.txt
+  446  awk '$3 <3000 {print $1,$2}' employees.txt
+  447  awk '$3 <5000 {print $1,$2}' employees.txt
+  448  awk '$3 <6000 {print $1,$2}' employees.txt
+  449  awk '{print " id=%d,salary=%d",$1,$3}' employees.txt
+  450  awk '{print " id: %d,salary: %d",$1,$3}' employees.txt
+  451  awk '{printf" id: %d,salary: %d",$1,$3}' employees.txt
+  452  awk '{printf" id: %d,salary: %d\n",$1,$3}' employees.txt
+  453  awk END{print "Total employees=",NR}' employees.txt
+quit
+  454  ls -l
+  455  ls -l s1.txt
+  456  chmod u+x s1.txt
+  457  ls -l s1.txt
+  458  chmod u+w employees.txt
+  459  ls -l employees.txt
+  460  chmod g+x employees.txt
+  461  ls -l employees.txt
+  462  chmod o+x employees.txt
+  463  ls -l employees.txt
+  464  chmod 462 s1.txt
+  465  ls -l s1.txt
+  466  chmod 732 s1.txt
+  467  ls -l s1.txt
+  468  history >my_commands1.txt
